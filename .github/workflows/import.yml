@@ -22,7 +22,7 @@ jobs:
           echo "4035b253d758de476872b471b4ab488d621f9ba35b0bacfa1ce9f8d9c265657f  /tmp/insightflow-reviewed.tar.xz" | sha256sum --check
           tar -tJf /tmp/insightflow-reviewed.tar.xz
           tar -xJf /tmp/insightflow-reviewed.tar.xz -C .
-          rm -rf .transfer .github/workflows/import.yml
+          rm -rf .transfer
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
