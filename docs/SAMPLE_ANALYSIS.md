@@ -15,7 +15,7 @@ The app calculates count, mean, median, min, max, and standard deviation for eac
 
 ![Revenue by region](../assets/sample-chart.svg)
 
-**Interpretation:** the chart summarizes the distribution of synthetic unit counts in the sample. It does not establish trends over time or causal relationships.
+**Interpretation:** the chart compares **total recorded revenue by region** in the synthetic dataset. It is descriptive only and does not establish causal effects or represent population-level performance.
 
 ## Reproduce
 
