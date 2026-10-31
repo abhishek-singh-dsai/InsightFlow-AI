@@ -1,0 +1,9 @@
+# Python >= 3.11. Install via `pip install -e .` for local development.
+pandas>=2.2,<4
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.15
+chainlit>=2.0,<3
+Pillow>=10,<13
+google-genai>=1.0,<3
+python-dotenv>=1.0,<2
